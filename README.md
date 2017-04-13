@@ -5,6 +5,9 @@
 <br/>
 
 <h2>Download</h2><br/>
+
+<a href="https://play.google.com/store/apps/details?id=com.bh.androidid"><img src="./images/get_it_on_play_logo_large.png"></a>
+
 <a href="https://play.google.com/store/apps/details?id=com.bh.androidid"><img src="./images/qrcode.png"></a>
 
 
