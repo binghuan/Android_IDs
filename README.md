@@ -1,6 +1,9 @@
 # Android_IDs
 
 <img src="./images/ic_launcher.png" width="256" height="auto"><br/>
+
+<a href="http://studiobinghuan.blogspot.tw/2017/04/android-ids.html">http://studiobinghuan.blogspot.tw/2017/04/android-ids.html</a><br/>
+
 <img src="./images/Slide1.png" width="auto" height="auto">
 <br/>
 
