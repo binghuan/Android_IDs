@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
+import android.util.Log;
 import android.widget.TextView;
 
 import java.util.UUID;
@@ -49,7 +50,15 @@ public class MainActivity extends AppCompatActivity {
         mValueOfAndroidId = (TextView) findViewById(R.id.value_of_android_id);
         mValueOfBluetoothAddress = (TextView) findViewById(R.id.value_of_bluetooth_address);
 
+        Log.v(TAG, "Build.VERSION.RELEASE: " + Build.VERSION.RELEASE);
+        Log.v(TAG, "Build.VERSION.BASE_OS: " + Build.VERSION.BASE_OS);
+        Log.v(TAG, "Build.VERSION.SDK_INT: " + Build.VERSION.SDK_INT);
+        Log.v(TAG, "Build.VERSION.CODENAME: " + Build.VERSION.CODENAME);
+        Log.v(TAG, "Build.VERSION.INCREMENTAL: " + Build.VERSION.INCREMENTAL);
+
     }
+
+    private final String TAG = "BH_" + this.getClass().getSimpleName();
 
     @Override
     protected void onResume() {
